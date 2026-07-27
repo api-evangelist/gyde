@@ -1,8 +1,30 @@
 aid: gyde
 name: Gyde
-description: Gyde is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Gyde is an AI-native health insurance brokerage, founded in 2025 and
+  headquartered in Austin, Texas with an office in New York City. Gyde partners
+  with established insurance agencies through acquisition, embedding AI-powered
+  tools and operational support so brokers can guide clients through insurance,
+  health, and wealth decisions at greater scale. Its products include Gia, an AI
+  assistant that handles client outreach, scheduling, and questions over SMS and
+  voice around the clock, and GydeOS, a broker operating system providing client
+  summaries, conversation transcripts, campaign management, and an AI co-pilot.
+  Gyde launched publicly in January 2026 with $60M in financing led by Lightspeed
+  Venture Partners. The company does not currently publish a public API,
+  developer portal, or SDKs; this profile tracks its identity and public web
+  properties in the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6937cd5f82678b31b35f0e7a/696ea516c890807e1564205b_68e547a6e1ef56c704b67033_OpenGraph%20Image.png
 url: https://raw.githubusercontent.com/api-evangelist/gyde/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Health Insurance
+- Artificial Intelligence
+- Brokerage
+- AI Assistant
+- Austin
 apis: []
+common:
+- type: DomainSecurity
+  url: security/gyde-domain-security.yml
+- type: Website
+  url: https://www.gydehealth.ai/
+- type: About
+  url: https://www.gydehealth.ai/about
+- type: Blog
+  url: https://www.gydehealth.ai/resources
+- type: Support
+  url: https://www.gydehealth.ai/contact-us
+- type: Careers
+  url: https://www.gydehealth.ai/careers
+- type: TermsOfService
+  url: https://www.gydehealth.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.gydehealth.ai/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/gydeinc/
+- type: Twitter
+  url: https://x.com/GydeInc
+- type: Facebook
+  url: https://www.facebook.com/gydeinc/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
